@@ -1,0 +1,56 @@
+
+
+.login-page {
+	background-color: #fff;
+}
+
+.login-page-language-con {
+	text-align: center;
+	background-color: red;
+}
+
+.login-page-input-con {
+	background-color: blue;
+
+}
+
+.page-logo-con {
+	margin-padding:30;
+}
+.page-logo {
+	width: 300;
+}
+
+.form-component {
+	padding: 30;
+}
+.form-component-input-con{
+	border-radius: 5;
+	border-style: solid;
+	border-width: 1;
+	border-color: #c0c0c0;
+	margin-bottom: 18;
+}
+
+.form-component-input-con-input{
+	border-style: solid;
+	background-color: transparent;
+	margin-top: 10;
+	margin-left: 15;
+	/*horizontal-align: center;*/
+	border-color: transparent;
+}
+
+.form-component-input-con-button {
+	background-color: transparent;
+	border-color: blue;
+	border-style: solid;
+	border-width: 1;
+	margin-bottom: 18;
+	border-radius: 5;
+}
+
+
+
+.login-page-footer {
+}
