@@ -1,0 +1,10 @@
+/.idea
+/node_modules
+/platforms
+/hooks
+
+/app/**/*.js
+/app/config/env.json
+.DS_Store
+.release_config
+
