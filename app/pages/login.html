@@ -1,7 +1,52 @@
+<GridLayout class="login-page" columns="*" rows="30,*,60">
 
-<ScrollView orientation="vertical">
-	<GridLayout columns="*" rows="4009l, *">
-	    <Label text="Label 1" col="0" row="0" backgroundColor="red"></Label>
-	    <Label text="Label 2" col="1" row="1" backgroundColor="green"></Label>
-	</GridLayout>
-</ScrollView>
+	<StackLayout col="0" row="0" class="login-page-language-con">
+    	<!-- <Label text="Label 1"></Label> -->
+    </StackLayout>
+	
+	<StackLayout col="0" row="1" class="login-page-input-con">
+
+		<Image class="page-logo" src="~/assets/images/logo.png"></Image>
+		
+		<GridLayout class="form-component" columns="*" rows="80,80,80, *, 80">
+
+		    <StackLayout class="form-component-input-con" text="Label 1" col="0" row="0">
+				<TextField class="form-component-input-con-input" hint="Phone number, email, username"></TextField>
+		    </StackLayout>
+
+		    <StackLayout class="form-component-input-con" text="Label 1" col="0" row="1">
+				<TextField class="form-component-input-con-input" secure="true" hint="Password"></TextField>
+		    </StackLayout>
+			
+			<Button class="form-component-input-con-button" col="0" row="2" text="Log In"></Button>
+			
+		    <StackLayout class="form-component-input-con-no-boder" col="0" row="3">
+				
+				<StackLayout class="form-component-input-con-forget-login-con">
+					<Label class="form-component-input-con-forget-login-con-lable" text="Forget your login details? "></Label>
+					<Label class="form-component-input-con-forget-login-con-lable-bold" text="Get help siging in."></Label>
+				</StackLayout>
+				
+				<GridLayout columns="*, 50, *" rows="*" class="line-con">
+					<Label col="0" row="0" text="" class="line-con-line"></Label>	
+					<Label col="1" row="0" text="OR" class="line-con-text"></Label>	
+					<Label col="2" row="0" text="" class="line-con-line"></Label>	
+				</GridLayout>
+				
+		    </StackLayout>
+		
+			<GridLayout columns="70, *" rows="*" col="0" row="4" class="button-type-con">
+				<Image col="0" row="0" class="button-type-con-image" src="~/assets/images/fb-logo.png"></Image>
+				<Label col="1" row="1" text="Log in as @dev_emeka" class="button-type-con-text"></Label>	
+			</GridLayout>
+
+		</GridLayout>
+    </StackLayout>
+
+	<StackLayout col="0" row="2" class="login-page-footer">
+		<Label horizontalAlignment="center" class="login-page-footer-lable" text="Don't have an account? "></Label>
+		<Label class="login-page-footer-lable-bold" text="Sign Up"></Label>
+	</StackLayout>
+
+</GridLayout>
+
