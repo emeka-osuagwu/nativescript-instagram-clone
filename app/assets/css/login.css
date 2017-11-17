@@ -70,20 +70,20 @@
 
 
 .line-con {
-	margin-top: 5;
+	margin-top: 10;
 }
 
 .line-con-line {
 	border-width: 0;
 	border-style: solid;
 	height: 1;
-	margin-top: 5;
 	background-color: gray;
 }
 
 .line-con-text {
 	text-align: center;
 	font-size: 20;
+	margin-top: 10;
 	font-weight: bold;
 }
 
